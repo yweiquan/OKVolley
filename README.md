@@ -1,6 +1,6 @@
 OKVolley
 ==========
-Fork from official [Volley][1] library, add [OKHttp][2] and [GSON][2] request.
+Use [OKHttp][1] as the transport layer for [Volley][2], and you can use [GSON][3] to convert a JSON string to an equivalent Java object.
 
 #Usage
 ```
@@ -36,6 +36,6 @@ limitations under the License.
 
 ```
 
-[1]:https://android.googlesource.com/platform/frameworks/volley
-[2]:https://github.com/square/okhttp
+[1]:https://github.com/square/okhttp
+[2]:https://android.googlesource.com/platform/frameworks/volley
 [3]:https://github.com/google/gson
